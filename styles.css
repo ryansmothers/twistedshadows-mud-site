@@ -217,6 +217,44 @@ code {
   margin-top: 1rem;
 }
 
+.feature-list {
+  margin: 1.75rem 0 0;
+  padding: 0;
+  max-width: 44rem;
+  list-style: none;
+}
+
+.feature-list li {
+  position: relative;
+  margin: 0;
+  padding: 0.7rem 0 0.7rem 1.15rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.feature-list li:last-child {
+  border-bottom: none;
+}
+
+.feature-list li::before {
+  content: "";
+  position: absolute;
+  top: 1.15rem;
+  left: 0;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.feature-list strong {
+  display: inline;
+  font-weight: 500;
+  color: var(--ink);
+}
+
 .section--story {
   background: var(--bg);
 }
