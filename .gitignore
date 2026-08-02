@@ -1,0 +1,14 @@
+# Logs / local IIS helpers
+scripts/*.log
+*.log
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vs/
+*.user
+*.suo
+
+# Optional local deploy mirrors
+inetpub/
