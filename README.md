@@ -10,6 +10,13 @@ Open `index.html` in a browser (double-click, or from this folder):
 start index.html
 ```
 
+## SEO
+
+- Meta / Open Graph / JSON-LD live in `index.html`
+- `robots.txt` and `sitemap.xml` are at the site root
+- After HTTPS is enabled, switch canonical / OG / sitemap URLs to `https://`
+- Submit `http://www.twistedshadows.com/sitemap.xml` in [Google Search Console](https://search.google.com/search-console)
+
 ## Edit later
 
 - Host / port: placeholders in the Connect section of `index.html`
